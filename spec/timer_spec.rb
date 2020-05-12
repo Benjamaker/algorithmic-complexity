@@ -1,6 +1,8 @@
 require 'timer'
 
-describe "timer"
+describe "create_array" do
   it "creates an array of length x" do
-    expect()
+    array = create_array(100)
+    expect(array.length).to eq(100)
   end
+end
