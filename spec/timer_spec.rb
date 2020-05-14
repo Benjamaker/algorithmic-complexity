@@ -6,3 +6,7 @@ describe "create_array" do
     expect(array.length).to eq(100)
   end
 end
+
+# describe "timer" do
+#   it ""
+# end

@@ -3,6 +3,6 @@
 source "https://rubygems.org"
 
 gem 'rspec'
-gem 'chartkick'
+gem 'googlecharts'
 
 # gem "rails"
