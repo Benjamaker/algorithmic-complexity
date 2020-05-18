@@ -6,7 +6,7 @@ def timer(my_method, n = 5000)
   while n <= 100000 do
     array = create_array(n)
     start = Time.now
-    array.send(my_method)
+    method(my_method).call(array)
     stop = Time.now
     diff = stop - start
     times << diff
