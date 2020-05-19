@@ -17,4 +17,7 @@ describe "my_reverse" do
     expect(my_reverse([1, 2, 3])).to eq([3, 2, 1])
   end
 
+  it("returns [3, 'c', 2, 'b', 1, 'a'] for ['a', 1, 'b', 2, 'c', 3]") do
+    expect(my_reverse(['a', 1, 'b', 2, 'c', 3])).to eq([3, 'c', 2, 'b', 1, 'a'])
+  end
 end    
