@@ -1,4 +1,5 @@
 require 'gchart'
+require_relative 'my_reverse'
 
 def timer(my_method, n = 5000)
   times = []
@@ -14,8 +15,8 @@ def timer(my_method, n = 5000)
     n += 5000
   end
   puts times
-  puts n_values
-  plot_chart(my_method, n_values, times)
+  # puts n_values
+  # plot_chart(my_method, n_values, times)
 end
 
 
