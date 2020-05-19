@@ -9,5 +9,10 @@ def my_reverse(array)
   else
     array
   end      
+end  
+
+def built_in_reverse(array)
+  array.reverse
 end    
+
 
